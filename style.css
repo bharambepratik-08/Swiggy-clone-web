@@ -584,11 +584,19 @@
     margin-top: 20px;
 }
 
-.footer_cont {
-    grid-template-columns : 2fr 1fr 1fr 1fr;
+.footer {
+    margin-top: 120px;
 }
 
-.color_logo {
+.footer_cont {
+    grid-template-columns : 2fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    background-color: rgb(240, 240, 245);
+    padding: 0px 20% 48px 15%;
+    column-gap: 5%;
+}
+
+.common_footer {
     margin-top: 48px;
 }
 
@@ -603,6 +611,7 @@
     font-weight: 900;
     font-size: 16px;
     color: rgba(2, 6, 12, 0.6);
+    margin: 15px 0px 0px 0px;
 }
 
 .footer_top_text {
