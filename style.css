@@ -226,7 +226,7 @@
 
 .food_images {
     width: 80%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     padding-top: 30px;
 }
 
@@ -246,7 +246,7 @@
 .instamart_photo {
     display: flex;
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: hidden;
     gap: 40px;
     width: 80%;
 }
@@ -403,7 +403,7 @@
 
 .dineout_hotel_rating_banner {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     gap: 40px;
     width: 80%;
     height: 440px;
@@ -611,7 +611,6 @@
     font-weight: 900;
     font-size: 16px;
     color: rgba(2, 6, 12, 0.6);
-    margin: 15px 0px 0px 0px;
 }
 
 .footer_top_text {
@@ -619,4 +618,8 @@
     font-weight: 400;
     font-size: 18px;
     color: rgba(2, 6, 12, 0.92);
+}
+
+.common_margin {
+    margin-top: 16px;
 }
